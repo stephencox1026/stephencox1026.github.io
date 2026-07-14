@@ -4,6 +4,16 @@ const PAGES = "https://stephencox1026.github.io";
 
 const PROJECTS = [
   {
+    name: "Snowflake Reliability Intelligence",
+    bucket: "B · Data Platform / Cortex",
+    desc: "Batch Cortex ML + RCA narratives + Analyst Metrics Explorer — Critical/High action queue and Solution playbooks for data-pipeline reliability (not a chatbot).",
+    metric: "2/3/2/10 criticality mix · Analyst 10/10 · offline Cortex proxy",
+    stack: ["Python", "Snowflake Cortex", "scikit-learn", "Streamlit", "FastAPI"],
+    repo: GH + "/snowflake-reliability",
+    demo: null,
+    featured: true,
+  },
+  {
     name: "Customer Churn Prediction",
     bucket: "A · Predictive ML",
     desc: "End-to-end churn model on synthetic customer data with retention recommendations — mirrors real retention analytics.",
